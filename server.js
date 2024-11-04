@@ -276,7 +276,7 @@ async function videototext() {
         return;
     }
 
-    const API_KEY = process.env.API_KEY;
+    const API_KEY = process.env.API_KEY;    // Here you have to use your's assembly.ai account's api.
     if (!API_KEY) {
         console.error("API key is missing. Please set it in the environment variables.");
         return;
